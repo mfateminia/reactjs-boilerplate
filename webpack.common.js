@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // to produce index.html automatically
 
 module.exports = {
-  entry: './src/index.js', // from where to start bundling (can have more than 1 entry)
+  entry: './src/index.tsx', // from where to start bundling (can have more than 1 entry)
   plugins: [
     new HtmlWebpackPlugin({
     template:'./src/template.html'
